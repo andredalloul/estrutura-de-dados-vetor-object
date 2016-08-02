@@ -1,7 +1,5 @@
 package br.com.dalloul.vetor.objeto;
 
-import br.com.dalloul.vetor.Vetor;
-
 public class Executa {
 
 	public static void main(String[] args) {
@@ -20,17 +18,17 @@ public class Executa {
 		System.out.println();
 		System.out.print("Tamanho do Vetor -> ");
 		System.out.println(vetorObjeto.getTamanho());
-		System.out.print("Obter o elemento de uma posição no Vetor -> ");
+		System.out.print("Obter o elemento de uma posiÃ§Ã£o no Vetor -> ");
 		System.out.println(vetorObjeto.buscaPosicao(4));
 		System.out.println();
 		System.out.print("Verifica se o elemento existe no Vetor -> ");
 		System.out.println(vetorObjeto.buscaString(55));
 		System.out.println();
-		System.out.print("Adicionar elemento em qualquer posição do Vetor -> ");
+		System.out.print("Adicionar elemento em qualquer posiÃ§Ã£o do Vetor -> ");
 		vetorObjeto.adiciona(2, "B+");
 		System.out.println(vetorObjeto.lista());
 		System.out.println();
-		System.out.print("Remover o elemento do Vetor passando a posição -> ");
+		System.out.print("Remover o elemento do Vetor passando a posiÃ§Ã£o -> ");
 		System.out.println(vetorObjeto.remove(5));
 		System.out.print(vetorObjeto.lista());
 
